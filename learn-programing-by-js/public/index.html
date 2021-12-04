@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="ja">
+    <head>
+        <meta charset="UTF-8" />
+        <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+        <title>janken</title>
+        <link rel="stylesheet" href="../static/style/style.css" />
+    </head>
+    <body>
+        <div id="root">
+            <div class="header">
+                <div class="header-title"><h1>JANKEN</h1></div>
+            </div>
+            <div id="inputContainer" class="input-container">
+                <label for="count">勝負の回数:</label>
+                <input type="text" class="text-input" id="count" />
+                <button class="btn" id="startBtn">スタート</button>
+            </div>
+            <div class="game-filed">
+                <div class="card-container">
+                    <div id="img-container" class="img-card">
+                        <div class="card-name">CHOKI</div>
+                        <img src="../static/imgs/M-j_ch01.png" class="img-reverse" />
+                    </div>
+                    <div id="img-container" class="img-card">
+                        <div class="card-name">GU</div>
+                        <img src="../static/imgs/M-j_gu01.png" class="img-reverse" />
+                    </div>
+                    <div id="img-container" class="img-card">
+                        <div class="card-name">CHOKI</div>
+                        <img src="../static/imgs/M-j_pa01.png" class="img-reverse" />
+                    </div>
+                </div>
+                <div class="cp-card-container">
+                    <img id="cpGu" src="../static/imgs/M-j_gu01.png" />
+                    <img id="cpPa" src="../static/imgs/M-j_pa01.png" hidden />
+                    <img id="cpCh" src="../static/imgs/M-j_ch01.png" hidden />
+                </div>
+            </div>
+        </div>
+        <script src="http://localhost:8080/build.js"></script>
+    </body>
+</html>
