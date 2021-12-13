@@ -15,7 +15,9 @@
             <div id="inputContainer" class="input-container">
                 <label for="count">勝負の回数:</label>
                 <input type="text" class="text-input" id="count" />
-                <button class="btn" id="startBtn">スタート</button>
+                <div class="btn-container">
+                    <button class="btn float" id="startBtn">スタート</button>
+                </div>
             </div>
             <div class="game-filed">
                 <div class="card-container">
@@ -37,6 +39,7 @@
                     <img id="cpPa" src="../static/imgs/M-j_pa01.png" hidden />
                     <img id="cpCh" src="../static/imgs/M-j_ch01.png" hidden />
                 </div>
+                <button id="startButton" class="start">START</button>
             </div>
         </div>
         <script src="http://localhost:8080/build.js"></script>
