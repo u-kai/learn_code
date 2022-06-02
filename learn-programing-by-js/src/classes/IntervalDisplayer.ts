@@ -43,7 +43,7 @@ export class IntervalFn {
     }
     stop = () => {
         if (this.isRun === false) {
-            throw new Error('not start')
+            return
         }
         clearInterval(this.interval)
     }
