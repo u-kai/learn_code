@@ -40,9 +40,9 @@ marp: true
 ```python
 images_directory = input()
 image = get_images(f"{image_directory}/*.jpeg")
-cat_dog_recognition = ai_model()
+cat_dog_predictor = ai_model()
 for image in images :
-    predict = cat_dog_recognition.predict(image)
+    predict = cat_dog_predictor.predict(image)
     if predict == 0 :
         print(f"{image_name} is DOG")
     else:
@@ -56,7 +56,7 @@ for image in images :
 
 # プログラミング言語ってなに？
 
-人がコンピュータにやって欲しいことを記述するのに適している記述方式
+コンピュータにやって欲しいことを記述するときに用いる言語
 
 - いっぱい種類がある
   - c/c++
@@ -66,14 +66,19 @@ for image in images :
   - rust
   - ...
 - 各々に得意分野があるので，やりたいことに合わせて言語を選ぶことが大事
-- 基本的には一枚のファイルには一つの言語
 
 ---
 
 # なんでプログラミング言語って必要なの？
 
-コンピュータは 0 と 1 しかわからないから
-コンピュータは電源の ON を 1OFF を 0 と認識している
+---
+# 前提1：コンピュータは0と1しか理解できない
+
+![height:500](./hello-world-bytes.png)
+
+
+---
+# プログラミング言語は0,1に変換される
 
 ---
 

@@ -1,19 +1,19 @@
 <mxfile host="65bd71144e">
     <diagram id="dkv5syLIWBK7ltrsqSGi" name="Page-1">
-        <mxGraphModel dx="656" dy="428" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+        <mxGraphModel dx="320" dy="371" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
             <root>
                 <mxCell id="0"/>
                 <mxCell id="1" parent="0"/>
-                <mxCell id="2" value="Actor" style="shape=umlActor;verticalLabelPosition=bottom;verticalAlign=top;html=1;outlineConnect=0;" vertex="1" parent="1">
+                <mxCell id="2" value="Actor" style="shape=umlActor;verticalLabelPosition=bottom;verticalAlign=top;html=1;outlineConnect=0;" parent="1" vertex="1">
                     <mxGeometry x="320" y="190" width="30" height="60" as="geometry"/>
                 </mxCell>
-                <mxCell id="3" value="後で俺のこと起こしてね" style="shape=callout;whiteSpace=wrap;html=1;perimeter=calloutPerimeter;" vertex="1" parent="1">
+                <mxCell id="3" value="後で俺のこと起こしてね" style="shape=callout;whiteSpace=wrap;html=1;perimeter=calloutPerimeter;" parent="1" vertex="1">
                     <mxGeometry x="294" y="120" width="120" height="80" as="geometry"/>
                 </mxCell>
-                <mxCell id="4" value="" style="fontColor=#0066CC;verticalAlign=top;verticalLabelPosition=bottom;labelPosition=center;align=center;html=1;outlineConnect=0;fillColor=#CCCCCC;strokeColor=#6881B3;gradientColor=none;gradientDirection=north;strokeWidth=2;shape=mxgraph.networks.pc;" vertex="1" parent="1">
+                <mxCell id="4" value="" style="fontColor=#0066CC;verticalAlign=top;verticalLabelPosition=bottom;labelPosition=center;align=center;html=1;outlineConnect=0;fillColor=#CCCCCC;strokeColor=#6881B3;gradientColor=none;gradientDirection=north;strokeWidth=2;shape=mxgraph.networks.pc;" parent="1" vertex="1">
                     <mxGeometry x="80" y="200" width="100" height="70" as="geometry"/>
                 </mxCell>
-                <mxCell id="5" value="後って具体的にいつ？&lt;br&gt;俺って誰？&lt;br&gt;起こすって色んな意味あるけど何？" style="shape=callout;whiteSpace=wrap;html=1;perimeter=calloutPerimeter;" vertex="1" parent="1">
+                <mxCell id="5" value="後って具体的にいつ？&lt;br&gt;俺って誰？&lt;br&gt;起こすって色んな意味あるけど何？" style="shape=callout;whiteSpace=wrap;html=1;perimeter=calloutPerimeter;" parent="1" vertex="1">
                     <mxGeometry x="30" y="120" width="230" height="80" as="geometry"/>
                 </mxCell>
             </root>
